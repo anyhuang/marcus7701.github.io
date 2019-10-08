@@ -1,85 +1,78 @@
-<?xml-stylesheet type="text/xsl" href="http://marcus7701.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://marcus7701.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://marcus7701.github.io/about/</loc>
+    <loc>https://marcus7701.github.io/about/</loc>
     <lastmod>2017-03-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/categories/</loc>
+    <loc>https://marcus7701.github.io/categories/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/categories/golang/</loc>
+    <loc>https://marcus7701.github.io/categories/docker/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/tags/golang/</loc>
+    <loc>https://marcus7701.github.io/tags/docker%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/</loc>
+    <loc>https://marcus7701.github.io/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/post/</loc>
+    <loc>https://marcus7701.github.io/post/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/tags/</loc>
+    <loc>https://marcus7701.github.io/tags/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/post/2019-09-16/</loc>
+    <loc>https://marcus7701.github.io/tags/ubuntu/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://marcus7701.github.io/categories/ubuntu/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://marcus7701.github.io/post/ubuntu%E5%AE%89%E8%A3%85docker/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://marcus7701.github.io/categories/%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2019-09-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://marcus7701.github.io/tags/%E5%BC%80%E5%8F%91/</loc>
+    <loc>https://marcus7701.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

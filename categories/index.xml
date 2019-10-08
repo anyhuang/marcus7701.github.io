@@ -2,40 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Marcus 365</title>
-    <link>http://marcus7701.github.io/categories/</link>
+    <link>https://marcus7701.github.io/categories/</link>
     <description>Recent content in Categories on Marcus 365</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>marcus</copyright>
     <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://marcus7701.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marcus7701.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>golang</title>
-      <link>http://marcus7701.github.io/categories/golang/</link>
+      <title>docker</title>
+      <link>https://marcus7701.github.io/categories/docker/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://marcus7701.github.io/categories/golang/</guid>
+      <guid>https://marcus7701.github.io/categories/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>学习笔记</title>
-      <link>http://marcus7701.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <title>ubuntu</title>
+      <link>https://marcus7701.github.io/categories/ubuntu/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://marcus7701.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>开发</title>
-      <link>http://marcus7701.github.io/categories/%E5%BC%80%E5%8F%91/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://marcus7701.github.io/categories/%E5%BC%80%E5%8F%91/</guid>
+      <guid>https://marcus7701.github.io/categories/ubuntu/</guid>
       <description></description>
     </item>
     

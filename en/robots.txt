@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://marcus7701.github.io/sitemap.xml
+Sitemap: https://marcus7701.github.io/sitemap.xml

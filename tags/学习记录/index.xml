@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学习记录 on Marcus 365</title>
-    <link>http://marcus7701.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+    <link>https://marcus7701.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
     <description>Recent content in 学习记录 on Marcus 365</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>marcus</copyright>
     <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://marcus7701.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marcus7701.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>从零学习golang</title>
-      <link>http://marcus7701.github.io/post/2019-09-16/</link>
+      <title>ubuntu 安装 docker</title>
+      <link>https://marcus7701.github.io/post/ubuntu%E5%AE%89%E8%A3%85docker/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://marcus7701.github.io/post/2019-09-16/</guid>
-      <description>正文</description>
+      <guid>https://marcus7701.github.io/post/ubuntu%E5%AE%89%E8%A3%85docker/</guid>
+      <description>1. 前提条件 Docker 只能安装在 ubuntu 系统内核高于 3.10 的版本之上。我们可以通过 uname -r 来查看当前系统内核版本。 uname -a 2. 卸载之前旧版的 docker sudo apt-get remove docker docker-engine docker-ce docker.io 3. 更新 apt 包 sudo apt-get</description>
     </item>
     
   </channel>
