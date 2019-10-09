@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>consul on Marcus 365</title>
+    <link>https://marcus7701.github.io/tags/consul/</link>
+    <description>Recent content in consul on Marcus 365</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>marcus</copyright>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://marcus7701.github.io/tags/consul/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>docker 安装 consul</title>
+      <link>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85consul/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85consul/</guid>
+      <description>1. 拉取镜像 sudo docker pull consul 2. 启动镜像 sudo docker run -p 8500:8500/tcp consul agent -server -ui -bootstrap-expect=1 -client=0.0.0.0 3. 查看镜像是否运行 sudo docker ps</description>
+    </item>
+    
+  </channel>
+</rss>

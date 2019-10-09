@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Marcus 365</title>
   
-<link rel="alternate" hreflang="en" href="https://marcus7701.github.io/en/" />
-
 
 <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -64,7 +62,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://marcus7701.github.io/" />
 
-<meta property="og:updated_time" content="2019-09-16T00:00:00+00:00" />
+<meta property="og:updated_time" content="2019-10-09T00:00:00+00:00" />
 <meta itemprop="name" content="Marcus 365">
 <meta itemprop="description" content="提升、分享、归类、总结。">
 
@@ -299,6 +297,111 @@
   <header class="post-header">
     <h1 class="post-title">
       
+      <a class="post-link" href="/post/docker%E5%AE%89%E8%A3%85consul/">docker 安装 consul</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2019-10-09" class="post-time">
+        2019-10-09
+      </time>
+      <div class="post-category">
+          <a href="https://marcus7701.github.io/categories/consul/"> consul </a>
+          <a href="https://marcus7701.github.io/categories/docker/"> docker </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      1. 拉取镜像 sudo docker pull consul 2. 启动镜像 sudo docker run -p 8500:8500/tcp consul agent -server -ui -bootstrap-expect=1 -client=0.0.0.0 3. 查看镜像是否运行 sudo docker ps
+    </div>
+    <div class="read-more">
+      <a href="/post/docker%E5%AE%89%E8%A3%85consul/" class="read-more-link">阅读全文</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/post/docker%E5%AE%89%E8%A3%85mysql/">docker 安装 mysql</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2019-10-09" class="post-time">
+        2019-10-09
+      </time>
+      <div class="post-category">
+          <a href="https://marcus7701.github.io/categories/mysql/"> mysql </a>
+          <a href="https://marcus7701.github.io/categories/docker/"> docker </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      1. 拉取镜像 sudo docker pull mysql:5.7 2. 设置配置文件 sudo mkdir -p /opt/docker-mysql/conf.d 增加并修改配置文件 config-file.cnf sudo vim /opt/docker-mysql/conf.d/config-file.cnf 增加内容如下 [mysqld] datadir=/var/lib/mysql [mysqld_safe] log-error=/var/log/mysqld.log pid-file=/var/run/mysqld/mysqld.pid 3. 启动 mysql 镜像 sudo docker run --name mysql \ --restart=always \ -p 3306:3306 \ -v /opt/docker-mysql/conf.d:/etc/mysql/conf.d \ -v /opt/docker-mysql/var/lib/mysql:/var/lib/mysql \ -e MYSQL_ROOT_PASSWORD=root \
+    </div>
+    <div class="read-more">
+      <a href="/post/docker%E5%AE%89%E8%A3%85mysql/" class="read-more-link">阅读全文</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/post/docker%E5%AE%89%E8%A3%85redis/">docker 安装 redis</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2019-10-09" class="post-time">
+        2019-10-09
+      </time>
+      <div class="post-category">
+          <a href="https://marcus7701.github.io/categories/redis/"> redis </a>
+          <a href="https://marcus7701.github.io/categories/docker/"> docker </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      1. 拉取镜像 sudo docker pull redis 2. 查看是否拉取成功 3. 启动 redis 镜像 sudo docker run -p 6379:6379 -v $PWD/data:/data -d redis:latest redis-server --appendonly yes 命令说明： -p 6379:6379 : 将容器的6379端口映射到主机的6379端口 -v $PWD/data:/data : 将
+    </div>
+    <div class="read-more">
+      <a href="/post/docker%E5%AE%89%E8%A3%85redis/" class="read-more-link">阅读全文</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
       <a class="post-link" href="/post/ubuntu%E5%AE%89%E8%A3%85docker/">ubuntu 安装 docker</a>
     </h1>
     
@@ -323,7 +426,7 @@
       1. 前提条件 Docker 只能安装在 ubuntu 系统内核高于 3.10 的版本之上。我们可以通过 uname -r 来查看当前系统内核版本。 uname -a 2. 卸载之前旧版的 docker sudo apt-get remove docker docker-engine docker-ce docker.io 3. 更新 apt 包 sudo apt-get
     </div>
     <div class="read-more">
-      <a href="/post/ubuntu%E5%AE%89%E8%A3%85docker/" class="read-more-link"></a>
+      <a href="/post/ubuntu%E5%AE%89%E8%A3%85docker/" class="read-more-link">阅读全文</a>
     </div>
     
   </div>

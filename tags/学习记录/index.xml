@@ -5,12 +5,38 @@
     <link>https://marcus7701.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
     <description>Recent content in 学习记录 on Marcus 365</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
     <copyright>marcus</copyright>
-    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marcus7701.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>docker 安装 consul</title>
+      <link>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85consul/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85consul/</guid>
+      <description>1. 拉取镜像 sudo docker pull consul 2. 启动镜像 sudo docker run -p 8500:8500/tcp consul agent -server -ui -bootstrap-expect=1 -client=0.0.0.0 3. 查看镜像是否运行 sudo docker ps</description>
+    </item>
+    
+    <item>
+      <title>docker 安装 mysql</title>
+      <link>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85mysql/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85mysql/</guid>
+      <description>1. 拉取镜像 sudo docker pull mysql:5.7 2. 设置配置文件 sudo mkdir -p /opt/docker-mysql/conf.d 增加并修改配置文件 config-file.cnf sudo vim /opt/docker-mysql/conf.d/config-file.cnf 增加内容如下 [mysqld] datadir=/var/lib/mysql [mysqld_safe] log-error=/var/log/mysqld.log pid-file=/var/run/mysqld/mysqld.pid 3. 启动 mysql 镜像 sudo docker run --name mysql \ --restart=always \ -p 3306:3306 \ -v /opt/docker-mysql/conf.d:/etc/mysql/conf.d \ -v /opt/docker-mysql/var/lib/mysql:/var/lib/mysql \ -e MYSQL_ROOT_PASSWORD=root \</description>
+    </item>
+    
+    <item>
+      <title>docker 安装 redis</title>
+      <link>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85redis/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85redis/</guid>
+      <description>1. 拉取镜像 sudo docker pull redis 2. 查看是否拉取成功 3. 启动 redis 镜像 sudo docker run -p 6379:6379 -v $PWD/data:/data -d redis:latest redis-server --appendonly yes 命令说明： -p 6379:6379 : 将容器的6379端口映射到主机的6379端口 -v $PWD/data:/data : 将</description>
+    </item>
     
     <item>
       <title>ubuntu 安装 docker</title>

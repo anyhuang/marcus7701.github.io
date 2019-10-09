@@ -5,19 +5,45 @@
     <link>https://marcus7701.github.io/categories/</link>
     <description>Recent content in Categories on Marcus 365</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
     <copyright>marcus</copyright>
-    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marcus7701.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>consul</title>
+      <link>https://marcus7701.github.io/categories/consul/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/categories/consul/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>docker</title>
       <link>https://marcus7701.github.io/categories/docker/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://marcus7701.github.io/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://marcus7701.github.io/categories/mysql/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/categories/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redis</title>
+      <link>https://marcus7701.github.io/categories/redis/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/categories/redis/</guid>
       <description></description>
     </item>
     
