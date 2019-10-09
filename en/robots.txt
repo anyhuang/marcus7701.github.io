@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://marcus7701.github.io/sitemap.xml
