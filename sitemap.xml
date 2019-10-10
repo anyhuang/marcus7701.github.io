@@ -37,6 +37,13 @@
   </url>
   
   <url>
+    <loc>https://marcus7701.github.io/post/docker-%E5%AE%89%E8%A3%85-mongodb/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85consul/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -72,7 +79,14 @@
   </url>
   
   <url>
-    <loc>https://marcus7701.github.io/categories/mysql/</loc>
+    <loc>https://marcus7701.github.io/categories/mongodb/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://marcus7701.github.io/tags/mongodb/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -80,6 +94,13 @@
   
   <url>
     <loc>https://marcus7701.github.io/tags/mysql/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://marcus7701.github.io/categories/mysql/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -121,14 +142,35 @@
   </url>
   
   <url>
-    <loc>https://marcus7701.github.io/categories/ubuntu/</loc>
-    <lastmod>2019-09-16T00:00:00+00:00</lastmod>
+    <loc>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85yapi/</loc>
+    <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://marcus7701.github.io/tags/yapi/</loc>
+    <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://marcus7701.github.io/categories/yapi/</loc>
+    <lastmod>2019-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://marcus7701.github.io/tags/ubuntu/</loc>
+    <lastmod>2019-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://marcus7701.github.io/categories/ubuntu/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

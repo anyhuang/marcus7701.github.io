@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yapi on Marcus 365</title>
+    <link>https://marcus7701.github.io/categories/yapi/</link>
+    <description>Recent content in yapi on Marcus 365</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>marcus</copyright>
+    <lastBuildDate>Tue, 17 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://marcus7701.github.io/categories/yapi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>docker 安装 yapi</title>
+      <link>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85yapi/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85yapi/</guid>
+      <description>1. 拉取镜像 sudo docker pull registry.cn-hangzhou.aliyuncs.com/anoy/yapi 2. 初始化配置 注：需要依赖MongoDB，点击查看 docker 安装 MongoDB sudo docker run -it --rm \ --link mongo-yapi:mongo \ --entrypoint npm \ --workdir /api/vendors \ registry.cn-hangzhou.aliyuncs.com/anoy/yapi \ run install-server 3. 运行容器 sudo docker run -d \ --name yapi \ --link</description>
+    </item>
+    
+  </channel>
+</rss>
