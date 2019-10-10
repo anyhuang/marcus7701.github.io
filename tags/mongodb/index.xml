@@ -6,15 +6,15 @@
     <description>Recent content in mongodb on Marcus 365</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>marcus</copyright>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marcus7701.github.io/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>docker 安装 consul</title>
+      <title>docker 安装 mongodb</title>
       <link>https://marcus7701.github.io/post/docker-%E5%AE%89%E8%A3%85-mongodb/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://marcus7701.github.io/post/docker-%E5%AE%89%E8%A3%85-mongodb/</guid>
       <description>####1. 拉取镜像 sudo docker pull mongo 2. 创建持久化存储位置 sudo docker volume create mongo_data_yapi 2. 运行容器 docker run -d --name mongo-yapi -v mongo_data_yapi:/data/db mongo -v $PWD/db:/data/db :将主机中当前目录下的db挂载到容器的/data/db，作为m</description>

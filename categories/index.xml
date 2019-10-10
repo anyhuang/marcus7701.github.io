@@ -6,24 +6,15 @@
     <description>Recent content in Categories on Marcus 365</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>marcus</copyright>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marcus7701.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>consul</title>
-      <link>https://marcus7701.github.io/categories/consul/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marcus7701.github.io/categories/consul/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>docker</title>
       <link>https://marcus7701.github.io/categories/docker/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://marcus7701.github.io/categories/docker/</guid>
       <description></description>
@@ -32,9 +23,27 @@
     <item>
       <title>mongodb</title>
       <link>https://marcus7701.github.io/categories/mongodb/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://marcus7701.github.io/categories/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yapi</title>
+      <link>https://marcus7701.github.io/categories/yapi/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/categories/yapi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>consul</title>
+      <link>https://marcus7701.github.io/categories/consul/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/categories/consul/</guid>
       <description></description>
     </item>
     
@@ -53,15 +62,6 @@
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://marcus7701.github.io/categories/redis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>yapi</title>
-      <link>https://marcus7701.github.io/categories/yapi/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marcus7701.github.io/categories/yapi/</guid>
       <description></description>
     </item>
     

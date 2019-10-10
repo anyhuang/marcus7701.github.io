@@ -6,18 +6,27 @@
     <description>Recent content in 学习记录 on Marcus 365</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>marcus</copyright>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marcus7701.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>docker 安装 consul</title>
+      <title>docker 安装 mongodb</title>
       <link>https://marcus7701.github.io/post/docker-%E5%AE%89%E8%A3%85-mongodb/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://marcus7701.github.io/post/docker-%E5%AE%89%E8%A3%85-mongodb/</guid>
       <description>####1. 拉取镜像 sudo docker pull mongo 2. 创建持久化存储位置 sudo docker volume create mongo_data_yapi 2. 运行容器 docker run -d --name mongo-yapi -v mongo_data_yapi:/data/db mongo -v $PWD/db:/data/db :将主机中当前目录下的db挂载到容器的/data/db，作为m</description>
+    </item>
+    
+    <item>
+      <title>docker 安装 yapi</title>
+      <link>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85yapi/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85yapi/</guid>
+      <description>1. 拉取镜像 sudo docker pull registry.cn-hangzhou.aliyuncs.com/anoy/yapi 2. 初始化配置 注：需要依赖MongoDB，点击查看 docker 安装 MongoDB sudo docker run -it --rm \ --link mongo-yapi:mongo \ --entrypoint npm \ --workdir /api/vendors \ registry.cn-hangzhou.aliyuncs.com/anoy/yapi \ run install-server 3. 运行容器 sudo docker run -d \ --name yapi \ --link</description>
     </item>
     
     <item>
@@ -45,15 +54,6 @@
       
       <guid>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85redis/</guid>
       <description>1. 拉取镜像 sudo docker pull redis 2. 查看是否拉取成功 3. 启动 redis 镜像 sudo docker run -p 6379:6379 -v $PWD/data:/data -d redis:latest redis-server --appendonly yes 命令说明： -p 6379:6379 : 将容器的6379端口映射到主机的6379端口 -v $PWD/data:/data : 将</description>
-    </item>
-    
-    <item>
-      <title>docker 安装 yapi</title>
-      <link>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85yapi/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marcus7701.github.io/post/docker%E5%AE%89%E8%A3%85yapi/</guid>
-      <description>1. 拉取镜像 sudo docker pull registry.cn-hangzhou.aliyuncs.com/anoy/yapi 2. 初始化配置 注：需要依赖MongoDB，点击查看 docker 安装 MongoDB sudo docker run -it --rm \ --link mongo-yapi:mongo \ --entrypoint npm \ --workdir /api/vendors \ registry.cn-hangzhou.aliyuncs.com/anoy/yapi \ run install-server 3. 运行容器 sudo docker run -d \ --name yapi \ --link</description>
     </item>
     
     <item>
